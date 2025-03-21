@@ -1,6 +1,5 @@
 <script setup>
 </script>
-
 <template>
      <!-- Inicio de la barra de navegación -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
@@ -8,9 +7,6 @@
       <!-- <a class="navbar-brand" href="#" style="font-size: 3rem;">GAMES</a> -->
       <a class="navbar-brand" href="#" style="font-size: 3rem; font-family: 
       'Arial', sans-serif; font-weight: bold; color: red; text-shadow: 2px 2px 5px black;">GAMES</a>
-
-      
-
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -26,7 +22,6 @@
               aria-expanded="false" style="font-size: 1.75rem;">
               Nuevo y destacable
             </a>
-
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#" style="font-size: 1.5rem;">Lo más vendido</a></li>
               <li><a class="dropdown-item" href="#" style="font-size: 1.5rem;">Lo más jugado</a></li>
@@ -67,6 +62,5 @@
   </nav>
   <!-- Fin de la barra de navegación -->
 </template>
-
 <style scoped>
 </style>
