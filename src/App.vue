@@ -2,14 +2,19 @@
 //import HelloWorld from './components/HelloWorld.vue'
 import BarraNavegacion from './components/BarraNavegacion.vue'
 import Textoinformactivo from './components/Textoinformactivo.vue';
-import Carrucel from './components/Carrucel.vue';
+import Carrusel from './components/Carrusel.vue';
 </script>
 
 <template>
-<BarraNavegacion/>
-<Textoinformactivo/>
-<Carrucel/>
+  <div>
+    <BarraNavegacion />
+  </div>
+  <div>
+    <Textoinformactivo />
+  </div>
+  <div>
+    <Carrusel />
+  </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
