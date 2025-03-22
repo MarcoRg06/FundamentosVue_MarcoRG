@@ -3,6 +3,7 @@
 import BarraNavegacion from './components/BarraNavegacion.vue'
 import Textoinformactivo from './components/Textoinformactivo.vue';
 import Carrusel from './components/Carrusel.vue';
+import PiePagina from './components/PiePagina.vue';
 </script>
 
 <template>
@@ -14,6 +15,9 @@ import Carrusel from './components/Carrusel.vue';
   </div>
   <div>
     <Carrusel />
+  </div>
+  <div>
+    <PiePagina />
   </div>
 </template>
 
