@@ -1,5 +1,6 @@
 <script setup>
 import ListaVideojuegos from './ListaVideojuegos.vue';
+import ListaCompras from './ListaCompras.vue';
 </script>
 
 <template>
@@ -47,6 +48,9 @@ import ListaVideojuegos from './ListaVideojuegos.vue';
                     </div>
                 </div>
             </div>
+          <!-- Importacion de la Lsita de compras     -->
+           <ListaCompras />
+          <!-- Final de la importacion de la Lista de compras -->
         </div>
         <!-- Final del col-md-6 para los juegos mas populares -->  
         <!-- Importacion de la Lista de Videjuegos -->
